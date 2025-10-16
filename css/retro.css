@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(117, 117, 164);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+nav{
+    background: pink;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+}
+
+nav span {
+    margin: 0 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 30%;
+    min-width: 300px;
+    background: rgb(170, 202, 170);
+    margin: 10px;
+    border: 2px solid rgb(6, 54, 6);
+    border-radius: 12px;
+}
+
+/* ------------------------------- MEDIA QUERIES -----------------------------------*/
+
+@media screen and (max-width: 768px){
+    header {
+        flex-direction: column;
+        text-align: center;
+        }
+    nav span{
+        margin: 20px 0;
+    }
+   
+}
+
+@media screen and (max-width: 1024px){
+    nav {
+        width: 40%;
+    }
+   
+}
