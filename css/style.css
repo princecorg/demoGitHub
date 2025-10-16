@@ -1,3 +1,24 @@
 h1 {
     color: rgb(44, 44, 150);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+nav {
+    width: 20%;
+}
+
+nav span {
+    margin: 0 20px;
 }
